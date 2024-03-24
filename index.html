@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="main_title">
+        <a href="https://www.centennialcollege.ca/" target="_blank">
+          <img
+            id="main-logo"
+            src="./imgs/centennialcollege_logo_horizontal_rgb.jpg"
+            alt="logo_centennial"
+          />
+        </a>
+        <div>
+          <h1>Centennial College</h1>
+        </div>
+      </div>
+      <div class="white_shadow">
+        <h2>Continuing Education Course / Instructor Evaluation</h2>
+        <p>
+          Please read each statement carefully and consider each one
+          individually. Use the <b>computer card</b> to make your choice (use a
+          pencil to fill in the space). Give only <b>one answer</b> for each
+          question.
+        </p>
+      </div>
+    </header>
+    <main>
+      <form action="">
+        <div class="dark_green">
+          <label for="course">Course Name / Code:</label>
+          <input type="text" id="course" name="course" value="" size="10" />
+
+          <label for="fall">Fall</label>
+          <input type="radio" name="semester" id="semester" value="fall" />
+          <label for="winter">Winter</label>
+          <input type="radio" name="semester" id="winter" value="winter" />
+          <label for="spring-summer">Spring/Summer</label>
+          <input
+            type="radio"
+            name="semester"
+            id="spring-summer"
+            value="spring-summer"
+          />
+
+          <label for="year">Year:</label>
+          <input type="text" id="year" name="year" value="" size="2" />
+
+          <label for="instructor">Instructor:</label>
+          <input
+            type="text"
+            id="instructor"
+            name="instructor"
+            value=""
+            size="45"
+          />
+        </div>
+
+        <ol>
+          <div class="section white">
+            <!-- </div> -->
+            <div class="topic_title">
+              <h2><i class="fa-solid fa-person-chalkboard"></i> Instructor</h2>
+            </div>
+            <p>How would you rate the instructor's:</p>
+            <li>
+              <p><b>Kwnoledge</b> of subject?</p>
+              <label for="excelent1">(a)Excelent</label>
+              <input
+                type="radio"
+                name="kwnoledge"
+                id="excelent1"
+                value="excelent1"
+              />
+
+              <label for="good1">(b)Good</label>
+              <input type="radio" name="kwnoledge" id="good1" value="good1" />
+
+              <label for="fair1">(c)Fair</label>
+              <input type="radio" name="kwnoledge" id="fair1" value="fair1" />
+
+              <label for="not_satisfactory1">(d)Not Satisfactory</label>
+              <input
+                type="radio"
+                name="kwnoledge"
+                id="not_satisfactory1"
+                value="not_satisfactory1"
+              />
+            </li>
+
+            <li>
+              <p><b>Helpfulness</b>?</p>
+              <label for="excelent2">(a)Excelent</label>
+              <input
+                type="radio"
+                name="helpfulness"
+                id="excelent2"
+                value="excelent2"
+              />
+
+              <label for="good2">(b)Good</label>
+              <input type="radio" name="helpfulness" id="good2" value="good2" />
+
+              <label for="fair2">(c)Fair</label>
+              <input type="radio" name="helpfulness" id="fair2" value="fair2" />
+
+              <label for="not_satisfactory2">(d)Not Satisfactory</label>
+              <input
+                type="radio"
+                name="helpfulness"
+                id="not_satisfactory2"
+                value="not_satisfactory2"
+              />
+            </li>
+
+            <li>
+              <p><b>Courtesy and Respect</b> for all students?</p>
+              <label for="excelent3">(a)Excelent</label>
+              <input
+                type="radio"
+                name="courtesy"
+                id="excelent3"
+                value="excelent3"
+              />
+
+              <label for="good3">(b)Good</label>
+              <input type="radio" name="courtesy" id="good3" value="good3" />
+
+              <label for="fair3">(c)Fair</label>
+              <input type="radio" name="courtesy" id="fair3" value="fair3" />
+
+              <label for="not_satisfactory3">(d)Not Satisfactory</label>
+              <input
+                type="radio"
+                name="courtesy"
+                id="not_satisfactory3"
+                value="not_satisfactory3"
+              />
+            </li>
+
+            <li>
+              <p><b>Communications</b> skills?</p>
+              <label for="excelent4">(a)Excelent</label>
+              <input
+                type="radio"
+                name="communications"
+                id="excelent4"
+                value="excelent4"
+              />
+
+              <label for="good4">(b)Good</label>
+              <input
+                type="radio"
+                name="communications"
+                id="good4"
+                value="good4"
+              />
+
+              <label for="fair4">(c)Fair</label>
+              <input
+                type="radio"
+                name="communications"
+                id="fair4"
+                value="fair4"
+              />
+
+              <label for="not_satisfactory4">(d)Not Satisfactory</label>
+              <input
+                type="radio"
+                name="communications"
+                id="not_satisfactory4"
+                value="not_satisfactory4"
+              />
+            </li>
+
+            <li>
+              <p>Overall <b>Performance</b>?</p>
+              <label for="excelent5">(a)Excelent</label>
+              <input
+                type="radio"
+                name="performance"
+                id="excelent5"
+                value="excelent5"
+              />
+
+              <label for="good5">(b)Good</label>
+              <input type="radio" name="performance" id="good5" value="good5" />
+
+              <label for="fair5">(c)Fair</label>
+              <input type="radio" name="performance" id="fair5" value="fair5" />
+
+              <label for="not_satisfactory5">(d)Not Satisfactory</label>
+              <input
+                type="radio"
+                name="performance"
+                id="not_satisfactory5"
+                value="not_satisfactory5"
+              />
+            </li>
+          </div>
+
+          <div class="section grey">
+            <div class="topic_title">
+              <h2><i class="fa-solid fa-graduation-cap"></i> Course</h2>
+            </div>
+            <li>
+              <p>How would you rate the <b>Course Materials</b>?</p>
+              <label for="excelent6">(a)Excelent</label>
+              <input
+                type="radio"
+                name="materials"
+                id="excelent6"
+                value="excelent6"
+              />
+
+              <label for="good6">(b)Good</label>
+              <input type="radio" name="materials" id="good6" value="good6" />
+
+              <label for="fair6">(c)Fair</label>
+              <input type="radio" name="materials" id="fair6" value="fair6" />
+
+              <label for="not_satisfactory6">(d)Not Satisfactory</label>
+              <input
+                type="radio"
+                name="materials"
+                id="not_satisfactory6"
+                value="not_satisfactory6"
+              />
+            </li>
+
+            <li>
+              <p>How much this course meet your <b>Expectations</b>?</p>
+              <label for="excelent7">(a)Excelent</label>
+              <input
+                type="radio"
+                name="expectations"
+                id="excelent7"
+                value="excelent7"
+              />
+
+              <label for="good7">(b)Good</label>
+              <input
+                type="radio"
+                name="expectations"
+                id="good7"
+                value="good7"
+              />
+
+              <label for="fair7">(c)Fair</label>
+              <input
+                type="radio"
+                name="expectations"
+                id="fair7"
+                value="fair7"
+              />
+
+              <label for="not_satisfactory7">(d)Not Satisfactory</label>
+              <input
+                type="radio"
+                name="expectations"
+                id="not_satisfactory7"
+                value="not_satisfactory7"
+              />
+            </li>
+
+            <li>
+              <p>How would you rate this course (<b>Overall</b>)?</p>
+              <label for="excelent8">(a)Excelent</label>
+              <input
+                type="radio"
+                name="overall"
+                id="excelent8"
+                value="excelent8"
+              />
+
+              <label for="good8">(b)Good</label>
+              <input type="radio" name="overall" id="good8" value="good8" />
+
+              <label for="fair8">(c)Fair</label>
+              <input type="radio" name="overall" id="fair8" value="fair8" />
+
+              <label for="not_satisfactory8">(d)Not Satisfactory</label>
+              <input
+                type="radio"
+                name="overall"
+                id="not_satisfactory8"
+                value="not_satisfactory8"
+              />
+            </li>
+          </div>
+
+          <div class="section white">
+            <div class="topic_title">
+              <h2>
+                <i class="fa-solid fa-circle-info"></i> General Information
+              </h2>
+            </div>
+            <li>
+              <p>
+                Was the <b>course outline</b> reviewed/explained at the
+                beginning of your course?
+              </p>
+              <label for="yes9">(a)Yes</label>
+              <input type="radio" name="outline" id="yes9" value="yes9" />
+
+              <label for="no9">(b)No</label>
+              <input type="radio" name="outline" id="no9" value="no9" />
+
+              <label for="not_sure9">(c)Not Sure</label>
+              <input
+                type="radio"
+                name="outline"
+                id="not_sure9"
+                value="not_sure9"
+              />
+            </li>
+
+            <li>
+              <p>
+                Would you <b>recommend</b> this course to a friend with the same
+                interests?
+              </p>
+              <label for="yes10">(a)Yes</label>
+              <input type="radio" name="recommend" id="yes10" value="yes10" />
+
+              <label for="no10">(b)No</label>
+              <input type="radio" name="recommend" id="no10" value="no10" />
+
+              <label for="not_sure10">(c)Not Sure</label>
+              <input
+                type="radio"
+                name="recommend"
+                id="not_sure10"
+                value="not_sure10"
+              />
+            </li>
+          </div>
+
+          <div class="section grey">
+            <div class="topic_title">
+              <h2><i class="fa-solid fa-comments"></i> Any Other Comments</h2>
+              <p>
+                (please use the back of the computer card or this papper if
+                necesary)
+              </p>
+            </div>
+            <li>
+              <label for="best"
+                >What is the <b>best thing</b> about this course?</label
+              >
+              <input type="text" name="best" id="best" value="" size="61" />
+            </li>
+
+            <li>
+              <label for="improve"
+                >How could we <b>improve</b> this course?</label
+              >
+              <input
+                type="text"
+                name="improve"
+                id="improve"
+                value=""
+                size="67"
+              />
+            </li>
+
+            <li>
+              <label for="other">Other?</label>
+              <textarea name="other" id="other" cols="100" rows="10"></textarea>
+            </li>
+          </div>
+        </ol>
+        <div class="buttons">
+          <input type="submit" value="SUBMIT" />
+          <input type="reset" value="RESET" />
+        </div>
+      </form>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <p><i>Thank you! We pay attention to your feedback!</i></p>
+        <div class="links">
+          <p>
+            <b>Web:</b>
+            <a href="https://www.centennialcollege.ca/" target="_blank"
+              >www.centennialcollege.ca</a
+            >
+          </p>
+          <p>
+            <b>Email:</b>
+            <a href="mailto:someone@example.com" target="_blank"
+              >continuingeducation@centennialcollege.ca</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
